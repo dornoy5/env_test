@@ -1,7 +1,20 @@
-from flask import Flask
+class Student: 
+    first_name=""
+    last_name=""
+    age=0
+    major=""
+    adress=""
+    mail=""
 
-app = Flask(__name__)
 
-@app.route("/")
-def hello_world():
-    return "<p>Hello, World!</p>"
+class Animal:
+    family=""
+    locations=""
+    weight=""
+    pettable=""
+    
+    def walk(self):
+        print("student walk")
+
+s1=Student()
+s1.walk()
