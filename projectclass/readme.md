@@ -31,6 +31,7 @@ jupyter_core==5.1.0
 MarkupSafe==2.1.3
 matplotlib-inline==0.1.6
 nest-asyncio==1.5.6
+numpy==1.26.0
 packaging==22.0
 panda==0.3.1
 parso==0.8.3
